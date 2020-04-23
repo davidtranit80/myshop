@@ -1,0 +1,4 @@
+.venv/*
+myshop/__pycache__/*
+*.sqllite3
+
