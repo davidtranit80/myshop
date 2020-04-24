@@ -25,7 +25,7 @@ SECRET_KEY = 'f*$5(agu+i=1@@!%+nbb02brdk76bab6adxi101j(#_r0p)b50'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost','127.0.0.1', 'myshop-prod-env10.eba-tpagdbwx.us-west-2.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['localhost','127.0.0.1', '.elasticbeanstalk.com']
 
 
 # Application definition
@@ -112,6 +112,7 @@ else:
         'PORT': '5432',
     }
 }
+
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
 
