@@ -1,5 +1,7 @@
 .venv/*
 myshop/__pycache__/*
+user_management/__pycache__/*
+user_management/migrations/*
 *.sqllite3
 
 
