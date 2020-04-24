@@ -25,8 +25,12 @@ SECRET_KEY = 'f*$5(agu+i=1@@!%+nbb02brdk76bab6adxi101j(#_r0p)b50'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost','127.0.0.1', 'myshop-prod-env10.eba-tpagdbwx.us-west-2.elasticbeanstalk.com']
-
+ALLOWED_HOSTS = [
+    '127.0.0.1',
+    'localhost',
+    '.compute-1.amazonaws.com', # allows viewing of instances directly
+    '.elasticbeanstalk.com' 
+]
 
 # Application definition
 
