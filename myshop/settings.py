@@ -30,7 +30,7 @@ ALLOWED_HOSTS = [
     'localhost',
     '.compute-1.amazonaws.com', # allows viewing of instances directly
     '.elasticbeanstalk.com',
-    '*'
+    '.rds.amazonaws.com'
 ]
 
 # Application definition
